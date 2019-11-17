@@ -43,12 +43,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
                 this.res = response;
                 if(this.res.resdata.success)
                 {
-                    this.resmessage = 'Varified Successfully!'
+                    this.resmessage = 'Verified Successfully!'
                     this.reset();
                 }
                 else
                 {
-                    this.resmessage = 'Varification Error!'
+                    this.resmessage = 'Verification Error!'
                 }
 
             }, error => {
