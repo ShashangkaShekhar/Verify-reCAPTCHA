@@ -40,11 +40,11 @@ var HomeComponent = /** @class */ (function () {
             .subscribe(function (response) {
             _this.res = response;
             if (_this.res.resdata.success) {
-                _this.resmessage = 'Varified Successfully!';
+                _this.resmessage = 'Verified Successfully!';
                 _this.reset();
             }
             else {
-                _this.resmessage = 'Varification Error!';
+                _this.resmessage = 'Verification Error!';
             }
         }, function (error) {
             console.log(error);
